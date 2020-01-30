@@ -1,0 +1,24 @@
+{
+  "name": "efairsorger_homepage",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch assets/stylesheets/scss -o assets/stylesheets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevkev300/efairsorger_homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevkev300/efairsorger_homepage/issues"
+  },
+  "homepage": "https://github.com/kevkev300/efairsorger_homepage#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}

@@ -18,7 +18,7 @@ body {
   padding: 0; }
 
 .container-main {
-  background-color: white;
+  background-color: whitesmoke;
   margin: 51px auto auto 0;
   padding: 40px; }
 
@@ -31,12 +31,12 @@ p {
 
 /* Handling 'a' tag*/
 a {
-  color: #6a6765 !important;
+  color: inherit !important;
   text-decoration: none !important; }
 
 a:hover {
   cursor: pointer !important;
-  color: #6a6765 !important; }
+  color: inherit !important; }
 
 @media (min-width: 100px) and (max-width: 575px) {
   h1 {

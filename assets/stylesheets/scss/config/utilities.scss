@@ -1,3 +1,4 @@
+@import 'colors';
 // --- Basic utilities ---
 
 html {
@@ -12,7 +13,7 @@ body {
 }
 
 .container-main {
-  background-color: white;
+  background-color: $color-bg;
   margin: 51px auto auto 0;
   padding: 40px;
 }
@@ -32,14 +33,14 @@ p {
 /* Handling 'a' tag*/
 
 a {
-  color: $color-grey !important;
+  color: inherit !important;
   text-decoration: none !important;
 
 }
 
 a:hover {
   cursor: pointer !important;
-  color: $color-grey !important;
+  color: inherit !important;
 }
 
 

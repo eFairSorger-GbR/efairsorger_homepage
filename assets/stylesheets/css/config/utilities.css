@@ -8,7 +8,7 @@ body {
   padding: 0; }
 
 .container-main {
-  background-color: white;
+  background-color: whitesmoke;
   margin: 51px auto auto 0;
   padding: 40px; }
 
@@ -17,21 +17,16 @@ h3 {
 
 p {
   font-size: 1.2rem;
-  /*  line-height: 1.3rem;
-*/
-  color: #323232; }
+  color: #6a6765; }
 
 /* Handling 'a' tag*/
 a {
-  color: #A63446;
-  transition: opacity 0.3s ease !important;
+  color: inherit !important;
   text-decoration: none !important; }
 
 a:hover {
-  text-decoration: none !important;
   cursor: pointer !important;
-  color: #A63446;
-  opacity: 0.6 !important; }
+  color: inherit !important; }
 
 @media (min-width: 100px) and (max-width: 575px) {
   h1 {

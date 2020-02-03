@@ -1,2 +1,17 @@
 @import 'colors';
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700|Oxygen:400,700|Source+Sans+Pro:400,700&display=swap');
 
+// Source Sans Pro for Headlines
+h1, h2, h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+};
+
+// Oxygen for navigation links
+.nav-link {
+  font-family: 'Oxygen', sans-serif;
+};
+
+// Maven Pro for text
+p, a {
+  font-family: 'Maven Pro', sans-serif;
+};

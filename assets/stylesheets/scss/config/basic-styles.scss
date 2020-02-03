@@ -1,1 +1,15 @@
-$nice: red;
+@import 'colors';
+// --- text alignment from bootstrap ---
+// .text-left
+// .text-center
+// .text-right
+
+
+// --- Further basic styles ---
+.color-main {
+  color: $color-main !important;
+}
+
+.color-sec {
+  color: $color-sec !important;
+}

@@ -1,0 +1,19 @@
+.carousel-item {
+  position: relative
+}
+
+.slider-text {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  text-align: right;
+  color: $color-grey;
+
+  h2 {
+    display: inline-block !important;
+  }
+
+  h3 {
+    display: inline-block !important;
+  }
+}

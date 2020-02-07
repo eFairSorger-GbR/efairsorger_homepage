@@ -161,3 +161,17 @@ a:hover {
   padding: 9px 14px;
   color: white;
   text-align: center; }
+
+.carousel-item {
+  position: relative; }
+
+.slider-text {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  text-align: right;
+  color: #6a6765; }
+  .slider-text h2 {
+    display: inline-block !important; }
+  .slider-text h3 {
+    display: inline-block !important; }

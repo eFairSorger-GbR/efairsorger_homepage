@@ -5,6 +5,11 @@
   transition: border 3px solid $color-sec;
 }
 
+.navigation {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
 .nav-logo {
   width: 100%;
 
@@ -13,6 +18,17 @@
     margin: 0 auto;
     height: 130px;
 
+  }
+}
+
+.nav-underline {
+  border-bottom: 3px solid $color-grey-light;
+  transition: border 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+    border-bottom: 3px solid $color-sec;
+    transition: border 0.3s ease;
   }
 }
 
@@ -57,10 +73,17 @@
 
 .nav {
   display: none !important;
-  text-align: center;
+  margin: 0 auto;
+
+  ul {
+    padding: 0;
+    text-align: center;
+  }
 
   li {
     display: inline;
+    margin: 0 2px;
+    padding: 0 20px 10px 20px;
   }
 }
 

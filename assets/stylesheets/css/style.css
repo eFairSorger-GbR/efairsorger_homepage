@@ -90,12 +90,24 @@ a:hover {
 #current {
   transition: border 3px solid #F1932C; }
 
+.navigation {
+  margin: 0 0 20px 0;
+  padding: 0; }
+
 .nav-logo {
   width: 100%; }
   .nav-logo img {
     display: block;
     margin: 0 auto;
     height: 130px; }
+
+.nav-underline {
+  border-bottom: 3px solid #e6e6e6;
+  transition: border 0.3s ease; }
+  .nav-underline:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #F1932C;
+    transition: border 0.3s ease; }
 
 .nav-collapsed {
   width: 100%; }
@@ -122,9 +134,14 @@ a:hover {
 
 .nav {
   display: none !important;
-  text-align: center; }
+  margin: 0 auto; }
+  .nav ul {
+    padding: 0;
+    text-align: center; }
   .nav li {
-    display: inline; }
+    display: inline;
+    margin: 0 2px;
+    padding: 0 20px 10px 20px; }
 
 @media (min-width: 992px) {
   .nav-collapsed {

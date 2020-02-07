@@ -18,7 +18,7 @@ body {
   padding: 0; }
 
 .container-main {
-  background-color: whitesmoke;
+  background-color: white;
   margin: 51px auto auto 0;
   padding: 40px; }
 
@@ -77,3 +77,70 @@ a:hover {
     font-size: 2.441em !important; }
   h3 {
     font-size: 1.953em !important; } }
+
+.color-main {
+  color: #96C11F !important; }
+
+.color-sec {
+  color: #F1932C !important; }
+
+.fbold {
+  font-weight: bold !important; }
+
+#current {
+  transition: border 3px solid #F1932C; }
+
+.nav-logo {
+  width: 100%; }
+  .nav-logo img {
+    display: block;
+    margin: 0 auto;
+    height: 130px; }
+
+.nav-collapsed {
+  width: 100%; }
+
+#nav-dropdown-btn {
+  transition: opacity 0.3s ease; }
+  #nav-dropdown-btn:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease; }
+
+.nav-dropdown-menu ul {
+  list-style: none;
+  padding: 0; }
+
+.nav-dropdown-menu li {
+  padding: 10px 0px 10px 50px;
+  border-bottom: 3px solid #e6e6e6;
+  transition: border 0.3s ease; }
+  .nav-dropdown-menu li:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #F1932C;
+    transition: border 0.3s ease; }
+
+.nav {
+  display: none !important;
+  text-align: center; }
+  .nav li {
+    display: inline; }
+
+@media (min-width: 992px) {
+  .nav-collapsed {
+    display: none; }
+  .nav {
+    display: block !important; } }
+
+@media (min-width: 1200px) {
+  .nav-collapsed {
+    display: none; }
+  .nav {
+    display: block !important; } }
+
+.btn-main {
+  background-color: #F1932C;
+  border-radius: 5px;
+  padding: 9px 14px;
+  color: white;
+  text-align: center; }

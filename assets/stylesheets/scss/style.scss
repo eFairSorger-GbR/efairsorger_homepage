@@ -1,7 +1,12 @@
 // run 'npm run scss' when configuring scss
 // that will compile the css in the css folder on saving of the scss file
 // if not installed, check https://webdesign.tutsplus.com/tutorials/watch-and-compile-sass-in-five-quick-steps--cms-28275
+// after creating a new file in scss folder, create it in css folder as well
+// then restart the 'npm run scss'
 
 @import 'config/colors';
 @import 'config/fonts';
 @import 'config/utilities';
+@import 'config/basic-styles';
+
+@import 'components/components';

@@ -1,0 +1,103 @@
+// make nav link for current page visible
+// not included at the moments
+
+#current {
+  transition: border 3px solid $color-sec;
+}
+
+.nav-logo {
+  width: 100%;
+
+  img {
+    display: block;
+    margin: 0 auto;
+    height: 130px;
+
+  }
+}
+
+
+// --- Nav style for small screen sizes --
+
+.nav-collapsed {
+  width: 100%;
+}
+
+#nav-dropdown-btn {
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+  }
+}
+
+.nav-dropdown-menu {
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    padding: 10px 0px 10px 50px;
+    border-bottom: 3px solid $color-grey-light;
+    transition: border 0.3s ease;
+
+    &:hover {
+      cursor: pointer;
+      border-bottom: 3px solid $color-sec;
+      transition: border 0.3s ease;
+    }
+  }
+}
+
+
+// --- Nav style for bigger screens ---
+
+.nav {
+  display: none !important;
+  text-align: center;
+
+  li {
+    display: inline;
+  }
+}
+
+
+// --- Responsiveness --- */
+
+// Smallest device*/
+@media (min-width: 100px) and (max-width: 575px) {
+}
+
+// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+// Large devices (horizontal teblets & desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .nav-collapsed {
+    display: none;
+  }
+
+  .nav {
+    display: block !important;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .nav-collapsed {
+    display: none;
+  }
+
+  .nav {
+    display: block !important;
+  }
+}

@@ -3,3 +3,10 @@
 
 .color-sec {
   color: #F1932C !important; }
+
+.fbold {
+  font-weight: bold !important; }
+
+.d-none {
+  transition: display 1s ease;
+}

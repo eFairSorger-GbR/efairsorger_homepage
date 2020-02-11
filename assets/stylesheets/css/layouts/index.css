@@ -1,0 +1,64 @@
+.content-small {
+  display: inline-block;
+  margin-bottom: 50px; }
+  .content-small img {
+    margin-top: 10px;
+    width: 100%; }
+
+.bordered-text {
+  margin-bottom: 50px;
+  border-left: 5px solid #F1932C;
+  border-top: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 20px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr;
+  grid-gap: 20px; }
+  .bordered-text a {
+    white-space: nowrap;
+    display: block; }
+
+.vereinsspecial {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .vereinsspecial img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover; }
+  .vereinsspecial div {
+    min-width: 200px;
+    flex-grow: 2; }
+
+@media (min-width: 768px) {
+  .content-small {
+    width: 80%; }
+  .bordered-text {
+    grid-template-columns: 3fr 1fr; }
+  .vereinsspecial {
+    flex-wrap: nowrap; }
+    .vereinsspecial div {
+      margin-left: 20px; } }
+
+@media (min-width: 992px) {
+  .content-small {
+    width: 70%; }
+  .bordered-text {
+    grid-template-columns: 3fr 1fr; }
+  .vereinsspecial {
+    flex-wrap: nowrap; }
+    .vereinsspecial div {
+      margin-left: 20px; } }
+
+@media (min-width: 1200px) {
+  .content-small {
+    width: 70%; }
+  .bordered-text {
+    grid-template-columns: 3fr 1fr; }
+  .vereinsspecial {
+    flex-wrap: nowrap; }
+    .vereinsspecial div {
+      margin-left: 20px; } }

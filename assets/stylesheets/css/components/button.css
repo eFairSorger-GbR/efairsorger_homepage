@@ -2,21 +2,23 @@
   background-color: #F1932C;
   border-radius: 5px;
   padding: 9px 14px;
-  color: white;
+  color: white !important;
   text-align: center;
   transition: opacity 0.3s ease; }
   .btn-main:hover {
     opacity: 0.6;
+    color: white !important;
     transition: opacity 0.3s ease; }
 
 .btn-ghost {
   background-color: white;
   border-radius: 5px;
   padding: 9px 14px;
-  color: #F1932C;
+  color: #F1932C !important;
   text-align: center;
   transition: opacity 0.3s ease;
-  border: 0.1px solid #F1932C; }
+  border: 1px solid #F1932C; }
   .btn-ghost:hover {
     opacity: 0.6;
-    transition: opacity 0.3s ease; }
+    transition: opacity 0.3s ease;
+    color: #F1932C !important; }

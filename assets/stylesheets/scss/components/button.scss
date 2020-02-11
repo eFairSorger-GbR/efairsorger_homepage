@@ -4,12 +4,13 @@
   background-color: $color-sec;
   border-radius: 5px;
   padding: 9px 14px;
-  color: white;
+  color: white !important;
   text-align: center;
   transition: opacity 0.3s ease;
 
   &:hover {
     opacity: 0.6;
+    color: white !important;
     transition: opacity 0.3s ease;
   }
 }
@@ -18,13 +19,14 @@
   background-color: white;
   border-radius: 5px;
   padding: 9px 14px;
-  color: $color-sec;
+  color: $color-sec !important;
   text-align: center;
   transition: opacity 0.3s ease;
-  border: 0.1px solid $color-sec;
+  border: 1px solid $color-sec;
 
   &:hover {
     opacity: 0.6;
     transition: opacity 0.3s ease;
+    color: $color-sec !important;
   }
 }

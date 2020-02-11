@@ -1,0 +1,115 @@
+@import '../config/colors';
+
+.content-small {
+  display: inline-block;
+  margin-bottom: 50px;
+
+  img {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+.bordered-text {
+  margin-bottom: 50px;
+  border-left: 5px solid $color-sec;
+  border-top: 1px solid $color-grey-light;
+  border-right: 1px solid $color-grey-light;
+  border-bottom: 1px solid $color-grey-light;
+  padding: 20px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+
+  a {
+    white-space: nowrap;
+    display: block;
+  }
+}
+
+.vereinsspecial {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+  div {
+    min-width: 200px;
+    flex-grow: 2;
+  }
+}
+
+
+// --- Responsiveness --- */
+
+// Smallest device*/
+@media (min-width: 100px) and (max-width: 575px) {
+}
+
+// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .content-small {
+    width: 80%;
+  }
+
+  .bordered-text {
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .vereinsspecial {
+    flex-wrap: nowrap;
+
+    div {
+      margin-left: 20px;
+    }
+  }
+}
+
+// Large devices (horizontal teblets & desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .content-small {
+    width: 70%;
+  }
+
+  .bordered-text {
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .vereinsspecial {
+    flex-wrap: nowrap;
+
+    div {
+      margin-left: 20px;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .content-small {
+    width: 70%;
+  }
+
+  .bordered-text {
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .vereinsspecial {
+    flex-wrap: nowrap;
+
+    div {
+      margin-left: 20px;
+    }
+  }
+}

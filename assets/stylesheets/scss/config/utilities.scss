@@ -12,10 +12,14 @@ body {
   padding: 0;
 }
 
+.container {
+
+}
+
 .container-main {
   background-color: $color-bg;
-  margin: 51px auto auto 0;
-  padding: 40px;
+  margin: 51px auto 0 0;
+  padding: 40px 40px 0 40px;
 }
 
 

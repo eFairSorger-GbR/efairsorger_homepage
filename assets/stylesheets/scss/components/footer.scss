@@ -1,9 +1,64 @@
+@import '../config/colors';
+
+#footer {
+  margin-top: 40px;
+  color: white;
+  background-color: $color-main;
+  text-align: center;
+  line-height: 1.1em;
+
+  p {
+    color: white;
+    font-size: 1em;
+  }
+}
+
 .footer-stripe-green {
   background-image: url('/assets/images/bg_green_stripes_bottom.png');
-  color: white;
   padding: 10px 0;
   background-position: center;
   background-size: contain;
-  margin-top: 40px;
   text-align: center;
+  margin-bottom: -2px;
+}
+
+.footer-information {
+  padding: 10px;
+  max-width: 575px;
+  display: inline-block;
+
+  h3 {
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.footer-contact {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  div {
+    width: auto;
+    padding: 10px;
+    white-space: nowrap;
+    text-align: left;
+  }
+}
+
+.footer-disclaimer {
+  padding: 30px;
+  text-align: center;
+  border-top: 2px solid white;
+  width: 80%;
+  display: inline-block;
+
+  a:hover {
+    opacity: 0.6;
+  }
 }

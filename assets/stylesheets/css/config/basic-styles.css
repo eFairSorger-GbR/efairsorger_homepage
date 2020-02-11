@@ -12,3 +12,12 @@
 
 .fitalic {
   font-style: italic; }
+
+.inline {
+  display: inline !important; }
+
+.pic-bordered {
+  width: 100%;
+  margin: 0 0 20px 0;
+  border: 3px solid #e6e6e6;
+  box-shadow: rgba(0, 0, 0, 0.298039) 0pt 0px 5px; }

@@ -100,3 +100,12 @@
 
 .light-white-bg {
   background-color: rgba(250, 250, 250, 0.8) !important; }
+
+.footer-stripe-green {
+  background-image: url("/assets/images/bg_green_stripes_bottom.png");
+  color: white;
+  padding: 10px 0;
+  background-position: center;
+  background-size: contain;
+  margin-top: 40px;
+  text-align: center; }

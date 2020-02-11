@@ -1,6 +1,8 @@
 .main-area-with-sitebar {
   display: grid;
   grid-template-column: 1fr;
+  grid-gap: 40px;
+  align-items: start;
 }
 
 .right-sidebar {
@@ -28,14 +30,21 @@
 
 // Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-
+  .main-area-with-sitebar {
+    grid-template-columns: 2fr 1fr;
+  }
 }
 
 // Large devices (horizontal teblets & desktops, 992px and up)*/
 @media (min-width: 992px) {
+  .main-area-with-sitebar {
+    grid-template-columns: 2fr 1fr;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-
+  .main-area-with-sitebar {
+    grid-template-columns: 2fr 1fr;
+  }
 }

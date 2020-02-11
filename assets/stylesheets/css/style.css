@@ -97,6 +97,12 @@ a:hover {
 .inline {
   display: inline !important; }
 
+.pic-bordered {
+  width: 100%;
+  margin: 0 0 20px 0;
+  border: 3px solid #e6e6e6;
+  box-shadow: rgba(0, 0, 0, 0.298039) 0pt 0px 5px; }
+
 #current {
   transition: border 3px solid #F1932C; }
 
@@ -336,7 +342,9 @@ a:hover {
 
 .main-area-with-sitebar {
   display: grid;
-  grid-template-column: 1fr; }
+  grid-template-column: 1fr;
+  grid-gap: 40px;
+  align-items: start; }
 
 .right-sidebar {
   background-color: rgba(241, 147, 44, 0.08);
@@ -346,3 +354,15 @@ a:hover {
   .right-sidebar div {
     padding-top: 50px;
     padding-bottom: 66px; }
+
+@media (min-width: 768px) {
+  .main-area-with-sitebar {
+    grid-template-columns: 2fr 1fr; } }
+
+@media (min-width: 992px) {
+  .main-area-with-sitebar {
+    grid-template-columns: 2fr 1fr; } }
+
+@media (min-width: 1200px) {
+  .main-area-with-sitebar {
+    grid-template-columns: 2fr 1fr; } }

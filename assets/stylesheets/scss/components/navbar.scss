@@ -1,5 +1,6 @@
 // make nav link for current page visible
 // not included at the moments
+@import '../config/colors';
 
 #current {
   transition: border 3px solid $color-sec;

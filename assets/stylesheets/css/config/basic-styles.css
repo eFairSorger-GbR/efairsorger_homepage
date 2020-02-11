@@ -4,9 +4,8 @@
 .color-sec {
   color: #F1932C !important; }
 
+.color-grey {
+  color: #6a6765 !important; }
+
 .fbold {
   font-weight: bold !important; }
-
-.d-none {
-  transition: display 1s ease;
-}

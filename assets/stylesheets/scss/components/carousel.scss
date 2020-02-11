@@ -1,6 +1,23 @@
+.carousel-inner {
+  box-shadow:  rgba(0, 0, 0, 0.498039) 0px 15px 10px -10px, rgba(0, 0, 0, 0.298039) 0pt 1px 4px;
+}
+
 .carousel-item {
   position: relative;
-  border: 5px solid red;
+}
+
+.carousel-indicators {
+  margin: 0 !important;
+  position: absolute !important;
+  bottom: -30px !important;
+
+  li {
+    background-color: $color-grey !important;
+
+  &.active {
+      background-color: $color-sec !important;
+    }
+  }
 }
 
 // .slider-text {
@@ -12,7 +29,6 @@
 
 .carousel-caption {
   width: 100% !important;
-  border: 5px solid blue;
   bottom: -10px !important;
   padding-top: 10px !important;
   padding-bottom: 10px !important;

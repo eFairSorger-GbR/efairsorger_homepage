@@ -1,10 +1,11 @@
 .carousel-item {
-  position: relative;
-  border: 5px solid red; }
+  position: relative; }
+
+.carousel-indicators li {
+  background-color: black !important; }
 
 .carousel-caption {
   width: 100% !important;
-  border: 5px solid blue;
   bottom: -10px !important;
   padding-top: 10px !important;
   padding-bottom: 10px !important;

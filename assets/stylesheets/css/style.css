@@ -165,13 +165,23 @@ a:hover {
   color: white;
   text-align: center; }
 
+.carousel-inner {
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 15px 10px -10px, rgba(0, 0, 0, 0.298039) 0pt 1px 4px; }
+
 .carousel-item {
-  position: relative;
-  border: 5px solid red; }
+  position: relative; }
+
+.carousel-indicators {
+  margin: 0 !important;
+  position: absolute !important;
+  bottom: -30px !important; }
+  .carousel-indicators li {
+    background-color: #6a6765 !important; }
+    .carousel-indicators li.active {
+      background-color: #F1932C !important; }
 
 .carousel-caption {
   width: 100% !important;
-  border: 5px solid blue;
   bottom: -10px !important;
   padding-top: 10px !important;
   padding-bottom: 10px !important;

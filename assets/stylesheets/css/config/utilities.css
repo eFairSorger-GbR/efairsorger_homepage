@@ -10,7 +10,7 @@ body {
 .container-main {
   background-color: white;
   margin: 51px auto 0 0;
-  padding: 40px;
+  padding: 20px 40px 40px 40px;
   box-shadow: rgba(0, 0, 0, 0.498039) 0px 15px 10px -10px; }
 
 h3 {

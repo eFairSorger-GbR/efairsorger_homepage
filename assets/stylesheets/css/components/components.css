@@ -74,7 +74,8 @@
   text-align: center; }
 
 .carousel-inner {
-  box-shadow: rgba(0, 0, 0, 0.498039) 0px 15px 10px -10px, rgba(0, 0, 0, 0.298039) 0pt 1px 4px; }
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 15px 10px -10px, rgba(0, 0, 0, 0.298039) 0pt 1px 4px;
+  margin-bottom: 30px; }
 
 .carousel-item {
   position: relative; }
@@ -102,11 +103,12 @@
   background-color: rgba(250, 250, 250, 0.8) !important; }
 
 #footer {
-  margin-top: 40px;
   color: white;
   background-color: #96C11F;
+  margin-bottom: 51px;
   text-align: center;
-  line-height: 1.1em; }
+  line-height: 1.1em;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 15px 10px -10px, rgba(0, 0, 0, 0.298039) 0pt 1px 4px; }
   #footer p {
     color: white;
     font-size: 1em; }

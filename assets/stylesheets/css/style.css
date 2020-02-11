@@ -94,6 +94,9 @@ a:hover {
 .fitalic {
   font-style: italic; }
 
+.inline {
+  display: inline !important; }
+
 #current {
   transition: border 3px solid #F1932C; }
 
@@ -330,3 +333,16 @@ a:hover {
     flex-wrap: nowrap; }
     .vereinsspecial div {
       margin-left: 20px; } }
+
+.main-area-with-sitebar {
+  display: grid;
+  grid-template-column: 1fr; }
+
+.right-sidebar {
+  background-color: rgba(241, 147, 44, 0.08);
+  border: 2px solid rgba(241, 147, 44, 0.1);
+  padding: 20px 20px 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.298039) 0pt 0px 10px; }
+  .right-sidebar div {
+    padding-top: 50px;
+    padding-bottom: 66px; }

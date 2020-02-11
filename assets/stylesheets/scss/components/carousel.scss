@@ -1,19 +1,45 @@
-.carousel-item {
-  position: relative
+.carousel-inner {
+  box-shadow:  rgba(0, 0, 0, 0.498039) 0px 15px 10px -10px, rgba(0, 0, 0, 0.298039) 0pt 1px 4px;
 }
 
-.slider-text {
-  position: absolute;
-  right: 30px;
-  bottom: 20px;
-  text-align: right;
-  color: $color-grey;
+.carousel-item {
+  position: relative;
+}
 
-  h2 {
+.carousel-indicators {
+  margin: 0 !important;
+  position: absolute !important;
+  bottom: -30px !important;
+
+  li {
+    background-color: $color-grey !important;
+
+  &.active {
+      background-color: $color-sec !important;
+    }
+  }
+}
+
+// .slider-text {
+//   position: absolute;
+//   right: 30px;
+//   bottom: 20px;
+//   text-align: right;
+//   color: $color-grey;
+
+.carousel-caption {
+  width: 100% !important;
+  bottom: -10px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  left: 0 !important;
+  right: 0 !important;
+
+  h3, h5 {
     display: inline-block !important;
   }
+}
 
-  h3 {
-    display: inline-block !important;
-  }
+.light-white-bg {
+  background-color: rgba(250, 250, 250, 0.8) !important;
 }

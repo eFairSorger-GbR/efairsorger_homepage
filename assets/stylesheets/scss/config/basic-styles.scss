@@ -36,3 +36,11 @@
   border: 3px solid $color-grey-light;
   box-shadow: rgba(0, 0, 0, 0.298039) 0pt 0px 5px;
 }
+
+.hover-opacity {
+  padding: 20px 0 !important;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}

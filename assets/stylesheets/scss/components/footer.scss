@@ -1,7 +1,7 @@
 @import '../config/colors';
 
 #footer {
-  color: white;
+  color: white !important;
   background-color: $color-main;
   margin-bottom: 51px;
   text-align: center;
@@ -59,7 +59,7 @@
   width: 80%;
   display: inline-block;
 
-  a:hover {
-    opacity: 0.6;
+  a {
+    color: white !important;
   }
 }

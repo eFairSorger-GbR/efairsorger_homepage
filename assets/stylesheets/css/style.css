@@ -17,11 +17,18 @@ body {
   margin: 0;
   padding: 0; }
 
+section {
+  margin-bottom: 50px; }
+
 .container-main {
   background-color: white;
   margin: 51px auto 0 0;
   padding: 20px 40px 40px 40px;
   box-shadow: rgba(0, 0, 0, 0.498039) 0px 15px 10px -10px; }
+
+.section-bordered {
+  border-top: 3px solid #e6e6e6;
+  padding: 70px 0; }
 
 h3 {
   font-weight: bold; }
@@ -70,7 +77,9 @@ a:hover {
   h2 {
     font-size: 1.563em !important; }
   h3 {
-    font-size: 1.563em !important; } }
+    font-size: 1.563em !important; }
+  #silent-link {
+    display: none; } }
 
 @media (min-width: 1200px) {
   h1 {
@@ -78,7 +87,9 @@ a:hover {
   h2 {
     font-size: 2.441em !important; }
   h3 {
-    font-size: 1.953em !important; } }
+    font-size: 1.953em !important; }
+  #silent-link {
+    display: none; } }
 
 .color-main {
   color: #96C11F !important; }

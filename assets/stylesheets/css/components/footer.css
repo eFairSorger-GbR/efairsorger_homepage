@@ -1,5 +1,5 @@
 #footer {
-  color: white;
+  color: white !important;
   background-color: #96C11F;
   margin-bottom: 51px;
   text-align: center;
@@ -44,5 +44,5 @@
   border-top: 2px solid white;
   width: 80%;
   display: inline-block; }
-  .footer-disclaimer a:hover {
-    opacity: 0.6; }
+  .footer-disclaimer a {
+    color: white !important; }

@@ -34,14 +34,14 @@ p {
 /* Handling 'a' tag*/
 
 a {
-  color: inherit !important;
+  color: $color-main !important;
   text-decoration: none !important;
-
+  transition: opacity 0.3s ease;
 }
 
 a:hover {
-  cursor: pointer !important;
-  color: inherit !important;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
 }
 
 

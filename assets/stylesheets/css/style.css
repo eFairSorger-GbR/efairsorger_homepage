@@ -378,3 +378,34 @@ a:hover {
 @media (min-width: 1200px) {
   .main-area-with-sitebar {
     grid-template-columns: 2fr 1fr; } }
+
+.sparen {
+  text-align: center;
+  max-width: 575px;
+  display: inline-block;
+  margin: 40px 0; }
+  .sparen img {
+    width: 100%; }
+  .sparen p {
+    width: 100%;
+    white-space: nowrap; }
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .sparen p {
+    font-size: 0.68em; } }
+
+@media (min-width: 576px) {
+  .sparen p {
+    font-size: 0.95em; } }
+
+@media (min-width: 768px) {
+  .sparen p {
+    font-size: 1.25em; } }
+
+@media (min-width: 992px) {
+  .sparen p {
+    font-size: 1.25em; } }
+
+@media (min-width: 1200px) {
+  .sparen p {
+    font-size: 1.25em; } }

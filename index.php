@@ -1,4 +1,1 @@
-<?php
-  header("Location: https://www.efairsorger.de", TRUE, 301);
-  exit();
-?>
+<?php include_once("index.html"); ?>

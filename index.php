@@ -9,5 +9,5 @@
       exit();
   }
 
-  Redirect('http://www.efairsorger.de/index.html', true);
+  Redirect('https://www.efairsorger.de/index.html', true);
 ?>

@@ -5,6 +5,6 @@ if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on") {
     //Prevent the rest of the script from executing.
     exit;
 } else {
-  include("index.html");
+  Echo "hello";
 }
 ?>
